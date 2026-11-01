@@ -9,8 +9,8 @@ int main(void) {
     scanf("%d", &m);
     printf("Введите количество дней: ");
     scanf("%d", &d);
-    month = (m % 12) + 1;
     day = d + 1;
+    month = (m % 12) + 1;
 
     switch (month) {
     case 1:
@@ -50,7 +50,7 @@ int main(void) {
         printf("%d декабря\n", day);
         break;
     }
-
+    getchar();
     
     
 
