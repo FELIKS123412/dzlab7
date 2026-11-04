@@ -4,7 +4,7 @@
 
 int main(void) {
     int m, d, month, day;
-    setlocale(LC_CTYPE, "RUS");
+    setlocale(LC_ALL, "RUS");
     printf("¬ведите количество мес€цев: ");
     scanf("%d", &m);
     printf("¬ведите количество дней: ");
